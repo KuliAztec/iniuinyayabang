@@ -29,3 +29,12 @@
   
   /* Defaults hover styles on all devices */
 @custom-variant hover (&:hover);
+
+/* Tambahkan di resources/css/app.css */
+header {
+  transition: all 0.3s ease;
+}
+
+header.scrolled nav {
+  @apply shadow-md;
+}
