@@ -29,9 +29,9 @@
             <div>
               <h3 class="text-white font-semibold mb-4">Halaman Utama</h3>
               <ul class="space-y-3">
-                <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Beranda</a></li>
+                <li><a href="/" class="text-gray-400 hover:text-white transition-colors duration-200">Beranda</a></li>
                 <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Berita</a></li>
-                <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Kontak</a></li>
+                <li><a href="{{ url('/contact')  }}" class="text-gray-400 hover:text-white transition-colors duration-200">Kontak</a></li>
               </ul>
             </div>
             
@@ -39,7 +39,7 @@
             <div>
               <h3 class="text-white font-semibold mb-4">Tentang Sekolah</h3>
               <ul class="space-y-3">
-                <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Profil Sekolah</a></li>
+                <li><a href="{{ '/profile' }}" class="text-gray-400 hover:text-white transition-colors duration-200">Profil Sekolah</a></li>
                 <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Kalender Akademik</a></li>
                 <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Struktur Organisasi</a></li>
                 <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Daftar Guru</a></li>

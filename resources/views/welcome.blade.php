@@ -9,7 +9,7 @@
   
   <div class="w-full">
     <!-- Added more blur for enhanced effect -->
-    <div class="w-full h-[600px] md:h-[700px] lg:h-[800px] bg-cover bg-center backdrop-blur-md" style="background-image: url('{{ asset('images/school-hero.jpg') }}');">
+    <div class="w-full h-[400px] md:h-[500px] lg:h-[500px] bg-cover bg-center backdrop-blur-md" style="background-image: url('{{ asset('images/school-hero.jpg') }}');">
     </div>
   </div>
 </div>
