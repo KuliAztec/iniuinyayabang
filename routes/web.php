@@ -13,3 +13,7 @@ Route::get('/contact', function () {
 Route::get('/profile', function () {
     return view('profilesekolah');
 });
+
+Route::get('/struktur', function () {
+    return view('orgstructure');
+});
