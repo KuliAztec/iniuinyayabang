@@ -39,10 +39,10 @@
             <div>
               <h3 class="text-white font-semibold mb-4">Tentang Sekolah</h3>
               <ul class="space-y-3">
-                <li><a href="{{ '/profile' }}" class="text-gray-400 hover:text-white transition-colors duration-200">Profil Sekolah</a></li>
+                <li><a href="{{ url('/profile') }}" class="text-gray-400 hover:text-white transition-colors duration-200">Profil Sekolah</a></li>
                 <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Kalender Akademik</a></li>
                 <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Struktur Organisasi</a></li>
-                <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Daftar Guru</a></li>
+                <li><a href="{{ url('daftarguru') }}" class="text-gray-400 hover:text-white transition-colors duration-200">Daftar Guru</a></li>
               </ul>
             </div>
             

@@ -14,7 +14,7 @@
     
     <!-- Profile Sekolah Title -->
     <div class="absolute inset-0 z-20 flex items-center">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-wider drop-shadow-lg ml-8 md:ml-16 lg:ml-24">PROFILE SEKOLAH</h1>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-wider drop-shadow-lg ml-8 md:ml-16 lg:ml-24">STRUKTUR ORGANISASI</h1>
     </div>
 </div>
 

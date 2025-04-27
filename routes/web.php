@@ -17,3 +17,7 @@ Route::get('/profile', function () {
 Route::get('/struktur', function () {
     return view('orgstructure');
 });
+
+Route::get('/daftarguru', function () {
+    return view('daftarguru');
+});
